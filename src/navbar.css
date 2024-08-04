@@ -1,0 +1,41 @@
+/* .navbar{ 
+  width: 100vw;
+  height: 10vh;
+  /* background-color: black; */
+  /* background-color: rgb(64, 63, 63);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row; */ 
+
+
+ .navbar {
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    /* Add some space around the header */
+    padding: 20px;
+  
+    /* Make the header full-width and add some box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+    /* Keep the header at the top of the viewport */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+    /* Add some transition for a nice effect */
+    transition: box-shadow 0.3s ease;
+    border-radius:  15px 15px 15px 15px;
+    background-color: black;
+  
+    /* On hover, increase the box-shadow */
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  } 

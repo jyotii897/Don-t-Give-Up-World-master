@@ -1,0 +1,28 @@
+.navigation{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* Used to apply for apply spacing in direction same as flex-direction */
+  font-size:x-large;
+  align-items: center; /* If flex-direction is row defined then the align item would work on the column spaing and vica versa */
+      /* Add some space between the links */
+      margin-left: 20px;
+  
+      /* Center the links vertically */
+      align-self: center;
+    
+      /* Style the links */
+      a {
+        color: #ebebeb;
+        text-decoration: none;
+        margin-right: 10px;
+    
+        /* Add a hover effect */
+        &:hover {
+          color: #3DAD9D;
+          text-decoration: underline;
+        }
+      }
+  
+}

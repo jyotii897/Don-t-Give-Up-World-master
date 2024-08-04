@@ -1,0 +1,28 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.search-box button[type="submit"] {
+  background-color: #333;
+  color: #3DAD9D;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button[type="submit"]:hover {
+  background-color: #444;
+}

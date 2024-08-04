@@ -1,0 +1,9 @@
+.logo{
+  height: 70%;
+  width: fit-content;
+  display: block; 
+  align-self: center;
+}
+.logo img{
+  height: 100%;
+}

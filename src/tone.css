@@ -1,0 +1,141 @@
+/* .tone {
+  height: fit-content;
+  width: fit-content;
+}
+.tone hr {
+  width: 80%;
+  height: 1px;
+  background-color: blueviolet;
+}
+
+.tone {
+  position: relative;
+  display: inline-block;
+  padding: 10px 100px;
+  background-color: #000000;
+  color: #3DAD9D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tone_types {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f6f0f0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 240px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  z-index: 1;
+  display: none;
+}
+
+.tone_types li {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.tone_types li:hover {
+  text-decoration: underline;
+}
+
+.tone_active .mood_types {
+  display: block;
+} */
+/* //////////////////////////////////////////////////////////////////////
+
+.tone {
+  height: fit-content;
+  width: fit-content;
+}
+
+.tone hr {
+  width: 80%;
+  height: 1px;
+  background-color: blueviolet;
+}
+
+.tone {
+  position: relative;
+  display: inline-block;
+  padding: 10px 100px;
+  background-color: #000000;
+  color: #3DAD9D;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tone_types {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f6f0f0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 240px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  z-index: 1;
+  display: none;
+}
+
+.tone_types li {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.tone_types li:hover {
+  text-decoration: underline;
+}
+
+.tone_active .mood_types {
+  display: block;
+} */
+
+
+.tone {
+  position: relative;
+  display: inline-block;
+  padding: 10px 100px;
+  background-color: #3DAD9D;
+  color:#ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  font-size: x-large;
+}
+
+.tone_types {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f6f0f0;
+  border: 1px solid #ffffff;
+  color: #3DAD9D;
+  border-radius: 5px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  z-index: 1;
+  display: none;
+}
+
+.tone_types li {
+  padding: 2px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.tone_types li:hover {
+  text-decoration: underline;
+}
+
+.tone_active .tone_types {
+  display: block;
+}

@@ -1,0 +1,16 @@
+
+
+.button-design {
+  background-color: #615f5f; /* White background color */
+  border: none; /* Remove default button border */
+  color: #ffffff; /* Black text color */
+  padding: 10px 20px; /* Add some padding for spacing */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Indicate clickable behavior */
+  /* Add rounded corners */
+  border-radius: 5px;
+}
+
+.button-design:hover {
+  background-color: #0b0b0b; /* Button color on hover */
+}

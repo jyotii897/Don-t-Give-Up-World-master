@@ -1,0 +1,10 @@
+.centreside {
+  height: 100%;
+  width: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
